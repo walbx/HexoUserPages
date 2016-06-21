@@ -1,13 +1,9 @@
 ---
-title: FirstPost
+title: Welcome
 date: 2016-06-21 14:06:05
 tags:
 ---
-## 11
 
-[link](http://walbx.github.io)
 
-> 引用
+  Welcome to my blog, it is under construction.
 
-**重点**
-*斜体*
