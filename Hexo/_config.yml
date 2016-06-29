@@ -5,7 +5,7 @@
 # Site
 title: Luo's
 subtitle:
-description:
+description: Luo's Blog | Java | Spring | Test
 author: Luo
 language: zh-CN
 timezone:
@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
