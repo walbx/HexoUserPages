@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Luo's
+title: Luo's Blog
 subtitle:
-description: Luo's Blog | Java | Spring | Test
+description: Luo's Blog | Java | Spring | Test | BigData
 author: Luo
 language: zh-CN
 timezone:
@@ -40,7 +40,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: true
+  auto_detect: false  #set false to fix " Cannot set property 'lastIndex' of undefined"
   tab_replace:
 
 # Category & Tag
@@ -52,7 +52,8 @@ tag_map:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+#date_format: YYYY-MM-DD
+date_format: MMM DD YYYY
 time_format: HH:mm:ss
 
 # Pagination
@@ -63,8 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: minos
-
+theme: fexo
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

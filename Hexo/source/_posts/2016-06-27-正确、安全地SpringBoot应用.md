@@ -1,10 +1,11 @@
 ---
 title: 正确、安全地停止SpringBoot应用
 date: 2016-06-27 16:35:29
-categories: 我用
+categories: 技能锻造室
 tags: [Spring Boot, 微服务]
 description: 基于官方特性的两种正确、安全地停止Spring Boot应用服务的方法
 ---
+![](http://http://ww4.sinaimg.cn/large/9bd9d3e2gw1f5bxlcc3o9j20nz0b7t8t.jpg)
 ## 引言
 [Spring Boot](http://projects.spring.io/spring-boot/)，作为Spring框架对“约定优先于配置(Convention Over Configuration)”理念的最佳实践的产物，它能帮助我们很快捷的创建出独立运行、产品级别的基于Spring框架的应用，大部分Spring Boot应用只需要非常少的配置就可以快速运行起来，是一个与微服务(MicroServices)相当契合的微框架。
 网络上关于Spring Boot的QuickStart式中文内容已经相当丰富，但是对于部署后怎样便捷、安全地停止服务(shutdown)，还比较缺乏，最近发现Spring Boot的官方指南更新了相关内容，因此结合该部分更新，对如何**基于官方提供的特性**正确地停止Spring Boot应用进行简单说明。
