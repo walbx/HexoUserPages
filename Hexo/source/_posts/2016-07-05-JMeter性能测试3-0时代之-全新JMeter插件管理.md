@@ -4,7 +4,6 @@ date: 2016-07-05 09:42:56
 categories: 技能锻造室
 tags: 性能测试
 ---
-![](http://ww1.sinaimg.cn/large/9bd9d3e2gw1f5otus8ya9j20b4099wfa.jpg)
 
 > 今年五月，老牌开源性能测试工具[Apache JMeter](http://jmeter.apache.org/)迎来了自2011年11月成为Apache顶级项目以来的首次大版本更新--从2.13更新到3.0。
 这对于广大JMeter用户来说无疑是一个好消息，它让我们看到了这个项目的活力。也是因此，打算写一些自己感受到的JMeter近来的变化。
@@ -36,9 +35,13 @@ tags: 性能测试
 1. 下载管理插件的[JAR文件](http://jmeter-plugins.org/get/)
 2. 将下载的文件拷贝的你的JMeter根目录下的`lib/ext`目录
 3. 启动JMeter，点击`菜单栏`-`Options`-`Plugins Manager`,如`图1`：
-![图 1](http://ww1.sinaimg.cn/large/9bd9d3e2gw1f5otxp1yk8j20c908675n.jpg)
+
+![图1](http://ww1.sinaimg.cn/large/9bd9d3e2gw1f5otxp1yk8j20c908675n.jpg)
+
 4. 在如`图2`的管理页面进行插件管理，共有三个标签页:
-![图 2](http://ww2.sinaimg.cn/large/9bd9d3e2gw1f5otxpd97mj20hr07qjtn.jpg)
+
+![图2](http://ww2.sinaimg.cn/large/9bd9d3e2gw1f5otxpd97mj20hr07qjtn.jpg)
+
   - Installed Plugins：顾名思义，是用于查看已安装的插件，并可通过`取消勾选`-`应用操作`来卸载插件
   - Available Plugins:用于查看和安装可用的插件
   - Upgrades:用于升级插件

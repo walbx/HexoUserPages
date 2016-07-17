@@ -69,5 +69,8 @@ theme: fexo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:walbx/walbx.github.io.git
-  branch: master
+#  repo: git@github.com:walbx/walbx.github.io.git
+#  branch: master
+  repo: 
+    github: git@github.com:walbx/walbx.github.io.git,master
+    coding: https://git.coding.net/walbx/walbx.git,coding-pages
